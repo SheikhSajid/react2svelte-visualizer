@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react2svelte-visualizer/static/css/main.fff43b7f.chunk.css",
+    "main.js": "/react2svelte-visualizer/static/js/main.d60e84ba.chunk.js",
+    "main.js.map": "/react2svelte-visualizer/static/js/main.d60e84ba.chunk.js.map",
+    "runtime-main.js": "/react2svelte-visualizer/static/js/runtime-main.389ee28a.js",
+    "runtime-main.js.map": "/react2svelte-visualizer/static/js/runtime-main.389ee28a.js.map",
+    "static/js/2.61da007f.chunk.js": "/react2svelte-visualizer/static/js/2.61da007f.chunk.js",
+    "static/js/2.61da007f.chunk.js.map": "/react2svelte-visualizer/static/js/2.61da007f.chunk.js.map",
+    "index.html": "/react2svelte-visualizer/index.html",
+    "precache-manifest.50af7e2da157a1280f794b0e14efe294.js": "/react2svelte-visualizer/precache-manifest.50af7e2da157a1280f794b0e14efe294.js",
+    "service-worker.js": "/react2svelte-visualizer/service-worker.js",
+    "static/css/main.fff43b7f.chunk.css.map": "/react2svelte-visualizer/static/css/main.fff43b7f.chunk.css.map",
+    "static/js/2.61da007f.chunk.js.LICENSE.txt": "/react2svelte-visualizer/static/js/2.61da007f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.389ee28a.js",
+    "static/js/2.61da007f.chunk.js",
+    "static/css/main.fff43b7f.chunk.css",
+    "static/js/main.d60e84ba.chunk.js"
+  ]
+}

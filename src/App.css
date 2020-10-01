@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+}
+
+.jsx-code {
+  border: 1px solid #61dafb;
+}
+
+.svelte-code {
+  border: 1px solid #ff3e00;
+}
+
+.compile-button {
+  height: 50px;
 }
 
 .App-logo {

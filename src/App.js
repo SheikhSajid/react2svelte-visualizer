@@ -7,9 +7,23 @@ import 'ace-builds/src-noconflict/mode-jsx';
 import 'ace-builds/src-noconflict/mode-html';
 import 'ace-builds/src-noconflict/theme-github';
 
-const placeholderJSX = `import React, { useState } from 'react';
+const placeholderJSX = /* jsx */ `import React, { useState } from 'react';
 
-// Note: jsx2svelte only supports hooks
+/* 
+ * Note: jsx2svelte only supports built-in react hooks
+ * Supported hooks:
+ *  i. useState
+ *  ii. useEffect
+ *  iii. useCallback
+ * 
+ * Coming soon:
+ *  i. useMemo
+ * ii. useContext
+ * 
+ * Not supported:
+ *  i. useReducer
+ * ii. custom hooks
+ */
 export default function Example() {
   const [count, setCount] = useState(0);
 
@@ -28,9 +42,12 @@ function App() {
   const [jsxCode, setJsxCode] = useState(placeholderJSX);
   const [svelteCode, setSvelteCode] = useState('');
 
+  const outputComment =
+    '<!--\n  The formatting of the output code is a bit off,\n  but it is valid (in most cases :p)\n-->\n';
+
   const compileHandler = () => {
     try {
-      setSvelteCode(compile(jsxCode));
+      setSvelteCode(outputComment + compile(jsxCode));
     } catch (e) {
       alert(e);
     }

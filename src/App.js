@@ -51,7 +51,7 @@ function App() {
     try {
       setSvelteCode(outputComment + compile(jsxCode));
     } catch (e) {
-      alert(e);
+      setSvelteCode('<!--\n\n' + e.name + ':\n' + e.message + '\n\n-->\n\n');
     }
   };
 

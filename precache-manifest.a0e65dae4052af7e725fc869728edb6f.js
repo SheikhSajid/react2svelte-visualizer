@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b93d72147d0860da0126abb60184622f",
+    "revision": "963d1ab884e75965818d227106fbf0db",
     "url": "/react2svelte-visualizer/index.html"
   },
   {
-    "revision": "c58cb8913bd32e0abe21",
+    "revision": "8750eb91231bd79e3161",
     "url": "/react2svelte-visualizer/static/css/main.fff43b7f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react2svelte-visualizer/static/js/2.cde94bac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c58cb8913bd32e0abe21",
-    "url": "/react2svelte-visualizer/static/js/main.68683037.chunk.js"
+    "revision": "8750eb91231bd79e3161",
+    "url": "/react2svelte-visualizer/static/js/main.7945e8cf.chunk.js"
   },
   {
     "revision": "dc3a6c1a2e8e2e5894c4",

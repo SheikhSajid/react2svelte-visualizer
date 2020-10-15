@@ -75,6 +75,7 @@ function App() {
         className="svelte-code"
         mode="html"
         theme="github"
+        readOnly
         value={svelteCode}
         name="UNIQUE_ID_OF_DIV"
         editorProps={{ $blockScrolling: true }}

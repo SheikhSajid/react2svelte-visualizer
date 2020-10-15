@@ -40,7 +40,9 @@ export default function Example() {
 
 function App() {
   const [jsxCode, setJsxCode] = useState(placeholderJSX);
-  const [svelteCode, setSvelteCode] = useState('');
+  const [svelteCode, setSvelteCode] = useState(
+    '<!--\n\nCompiled svelte code will appear here\n\n-->\n\n'
+  );
 
   const outputComment =
     '<!--\n  The formatting of the output code is a bit off,\n  but it is valid (in most cases :p)\n-->\n';

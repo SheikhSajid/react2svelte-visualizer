@@ -12,13 +12,13 @@ const placeholderJSX = /* jsx */ `import React, { useState } from 'react';
 /* 
  * Note: jsx2svelte only supports built-in react hooks
  * Supported hooks:
- *  i. useState
+ *   i. useState
  *  ii. useEffect
- *  iii. useCallback
+ * iii. useCallback
+ *  iv. useMemo
  * 
  * Coming soon:
- *  i. useMemo
- * ii. useContext
+ *  i. useContext
  * 
  * Not supported:
  *  i. useReducer

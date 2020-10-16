@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react2svelte-visualizer/precache-manifest.74e09b0b395db7b711b484e2bed104e1.js"
+  "/react2svelte-visualizer/precache-manifest.5c274319705253091eb4688608f0f175.js"
 );
 
 self.addEventListener('message', (event) => {

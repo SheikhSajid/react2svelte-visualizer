@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "ace-builds": "^1.4.12",
-    "jsx2svelte": "0.0.6",
+    "jsx2svelte": "0.0.8",
     "react": "^16.13.1",
     "react-ace": "^9.1.4",
     "react-dom": "^16.13.1",

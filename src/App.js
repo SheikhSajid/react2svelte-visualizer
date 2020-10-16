@@ -55,31 +55,50 @@ function App() {
     }
   };
 
+  const repo = 'https://github.com/SheikhSajid/jsx2svelte';
+
   return (
-    <div className="App">
-      <AceEditor
-        className="jsx-code"
-        mode="jsx"
-        theme="github"
-        onChange={setJsxCode}
-        value={jsxCode}
-        name="UNIQUE_ID_OF_DIV"
-        editorProps={{ $blockScrolling: true }}
-      />
+    <div>
+      <nav style={{ height: '30px', padding: '10px' }}>
+        <span style={{ fontWeight: 'bold' }}>React to Svelte Compiler</span>{' '}
+        <a href={repo}>Github</a>
+      </nav>
 
-      <button className="compile-button" onClick={compileHandler}>
-        Compile
-      </button>
+      <div className="App">
+        <AceEditor
+          className="jsx-code"
+          mode="jsx"
+          theme="github"
+          onChange={setJsxCode}
+          value={jsxCode}
+          name="UNIQUE_ID_OF_DIV"
+          editorProps={{ $blockScrolling: true }}
+          style={{
+            width: '45%',
+            height: 'calc(100vh - 30px)',
+          }}
+        />
 
-      <AceEditor
-        className="svelte-code"
-        mode="html"
-        theme="github"
-        readOnly
-        value={svelteCode}
-        name="UNIQUE_ID_OF_DIV"
-        editorProps={{ $blockScrolling: true }}
-      />
+        <div style={{ width: '10%' }}>
+          <button className="compile-button" onClick={compileHandler}>
+            Compile
+          </button>
+        </div>
+
+        <AceEditor
+          className="svelte-code"
+          mode="html"
+          theme="github"
+          readOnly
+          value={svelteCode}
+          name="UNIQUE_ID_OF_DIV"
+          editorProps={{ $blockScrolling: true }}
+          style={{
+            width: '45%',
+            height: 'calc(100vh - 30px)',
+          }}
+        />
+      </div>
     </div>
   );
 }
